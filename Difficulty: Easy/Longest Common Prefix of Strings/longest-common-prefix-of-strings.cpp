@@ -6,7 +6,7 @@ public:
 
         for (int i = 0; i < arr[0].size(); i++) {
             
-            char ch = arr[0][i];
+            char ch = arr[0][i]; // e
 
             for (int j = 1; j < arr.size(); j++) {
                 
@@ -17,7 +17,7 @@ public:
                 }
             }
 
-            ans += ch;
+            ans += ch;  // ans=gee
         }
 
         return ans;
